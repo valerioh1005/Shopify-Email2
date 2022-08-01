@@ -1,0 +1,182 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+
+      }
+
+      .icon-size {
+        max-width: 280px;
+        padding: 40px 0 30px;
+      }
+
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .background {
+        background-color: #ffffff;
+      }
+
+      .link-color {
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+      .footer {
+        background-image: url("http://127.0.0.1:5500/assets/bg-colors.png");
+        background-size: 600px;
+      }
+
+      .content-bg {
+        background-color: #ffffff;
+      }
+
+      .footer-links {
+          color: #000;
+          text-decoration: none;
+      }
+    </mj-style>
+    <mj-style>
+      @media (min-width: 360px) {
+        .mobile {
+          font-size: 52px;
+        }
+      }
+
+
+      @media (max-width: 280px) {
+        .mobile {
+          font-size: 40px;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-section css-class="content-bg">
+
+      <mj-include path="./components/header.mjml">
+        <mj-raw>
+          <!--Top Header Section-->
+        </mj-raw>
+        <mj-section css-class="top-heading">
+          <mj-column padding="20px 0 30px 0">
+            <mj-text css-class="top-heading-title-1" font-size="58px" color="#004c3f" font-weight="bold">
+              <div class="mobile sm">What's New</div>
+            </mj-text>
+            <mj-text css-class="top-heading-title-2" font-size="16px" color="#004c3f" font-weight="normal">
+              July 18, 2022
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-include path="./components/3-line.mjml" />
+        <mj-raw>
+          <!--Two Column Image Section-->
+        </mj-raw>
+        <mj-section>
+          <mj-column>
+            <mj-image href="https://shopify.com" border-radius="10px" padding-bottom="20px" src="http://127.0.0.1:5500/assets/image.jpg" alt="" />
+          </mj-column>
+          <mj-column>
+            <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+              <a class="link-color" href="https://shopify.com">Find more ways to sell with pre-orders</a>
+            </mj-text>
+            <mj-text color="#004c3f" font-size="16px" font-weight="normal" line-height="20px" padding-bottom="20px">
+              <a class="link-color" href="https://shopify.com">We've gone and made selling even easier, with pre-orders.
+                Give your customers the abilty to pay now, pay a deposit, or pay later, and in the process, increase your sales, forecast demand, and create buzz for your products.</a>
+            </mj-text>
+            <mj-text color="#004c3f" font-size="14px" font-weight="bold" padding-bottom="20px">
+              <a class="link-color" href="https://shopify.com">Learn More</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-include path="./components/3-line.mjml" />
+        <mj-raw>
+          <!--Plain Text Section-->
+        </mj-raw>
+        <mj-section padding="40px 40px 20px 40px">
+          <mj-column>
+            <mj-text align="center" font-size="20px" line-height="20px" font-weight="bold" color="#212b35">
+              Running a business like yours isn't a desk job. Keep it from becoming one with the Shopify app
+            </mj-text>
+          </mj-column>
+        </mj-section>
+
+        <mj-raw>
+          <!--App Section-->
+        </mj-raw>
+        <mj-section>
+          <mj-group>
+            <mj-column padding="0 5px">
+              <mj-image align="right" padding="0" href="https://apple.com" src="http://127.0.0.1:5500/assets/appstore.png" width="150px" height="43px" alt="App Store" />
+            </mj-column>
+            <mj-column padding="0 5px">
+              <mj-image align="left" padding="0" href="https://android.com" src="http://127.0.0.1:5500/assets/android.png" width="150px" height="43px" alt="App Store" />
+            </mj-column>
+          </mj-group>
+        </mj-section>
+        <mj-raw>
+          <!--Footer-->
+        </mj-raw>
+
+        <mj-section css-class="footer" padding="0">
+          <mj-wrapper>
+            <mj-group >
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/fb.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/tw.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/insta.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/snap.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/in.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/pin.png" alt="Facebook" />
+              </mj-column>
+
+              <mj-column padding="0">
+                <mj-image padding="0 5px" width="27px" height="27px" src="http://127.0.0.1:5500/assets/yt.png" alt="Facebook" />
+
+              </mj-column>
+            </mj-group>
+            <mj-section>
+                <mj-column padding="0">
+                    <mj-text font-size="10px" align="center">
+                        &copy; Shopify, 151 O'Connor Street, Ground Floor, Ottawa ON, 2L8
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="0 0 60px">
+                <mj-column padding="0">
+                    <mj-text font-size="10px" align="center">
+                       <a href="#" class="footer-links">Unsubscribe</a> | 
+                       <a href="#" class="footer-links">Manage your Email Preferences</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+          </mj-wrapper>
+        </mj-section>
+
+    </mj-section>
+</mj-body>
+</mjml>

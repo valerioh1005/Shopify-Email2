@@ -1,0 +1,5 @@
+<mj-section css-class="header">
+    <mj-column>
+       <mj-image width="121px" align="left" src="http://127.0.0.1:5500/assets/logo.png" alt="shopify-logo" /> 
+    </mj-column>
+</mj-section>
